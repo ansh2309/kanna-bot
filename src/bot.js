@@ -22,10 +22,14 @@ client.on('message', async (message) => {
             message.channel.send('https://pa1.narvii.com/6489/e86ed4a3f4cb049cdbc7289a8f7a3407c40d7012_hq.gif');
         } else if (CMD_NAME === 'kannabraid') {
             message.channel.send('https://pa1.narvii.com/6397/ddb5b6290233fc76d85ad2ece0b75dd2a70f5385_hq.gif');
-        } else if (CMD_NAME === 'kannarice') {
-            message.channel.send('https://giffiles.alphacoders.com/211/211941.gif');
-        } else if (CMD_NAME === 'fuvkoff') {
-            message.channel.send('https://giffiles.alphacoders.com/130/13036.gif');
+        } else if (CMD_NAME === 'kannadraw') {
+            message.channel.send('https://thumbs.gfycat.com/RemarkableJointCaracal-size_restricted.gif');
+        } else if (CMD_NAME === 'kannasleep') {
+            message.channel.send('https://pa1.narvii.com/6354/1564e64732f66cf9880eef6b29d1697036f01a6a_hq.gif');
+        } else if (CMD_NAME === 'kannacatch') {
+            message.channel.send('https://thumbs.gfycat.com/TightVigorousAmazonparrot-size_restricted.gif');
+        } else if (CMD_NAME === 'kannacry') {
+            message.channel.send('https://media2.giphy.com/media/lW4m91PCHUw8w/source.gif');
         }
     }
 });
