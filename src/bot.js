@@ -13,6 +13,13 @@ client.on('ready', () => {
 		},
 	});
 });
+client.once('reconnecting', () => {
+	console.log('Internet lost, Reconnecting!');
+});
+
+client.once('disconnect', () => {
+	console.log('Disconnected!');
+});
 
 client.on('message', async (message) => {
 	if (message.author.bot) return;
@@ -52,6 +59,12 @@ client.on('message', async (message) => {
 			message.channel.send(
 				'https://gfycat.com/criminaloccasionalindochinesetiger-animegifs-headpats'
 			);
+		} else if (CMD_NAME === 'patpatpat') {
+			message.channel.send(
+				'https://cdn.discordapp.com/emojis/671559394521251860.gif'
+			);
+		} else {
+			console.log('Not a valid command');
 		}
 	}
 });
